@@ -34,9 +34,9 @@ Make sure you have the following installed on your system:
    Create a .env file and set the PORT variable.
    Start the server:
 
-```bash
-  npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 The server will be available at http://localhost:5000 by default.
 
