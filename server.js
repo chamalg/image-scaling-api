@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 
 const upload = multer({ storage: multer.memoryStorage() }).single("file");
 
-app.post("/upload", upload, (req, res) => {
+app.post("/resize", upload, (req, res) => {
   const { file, body } = req;
 
   if (!file) {
